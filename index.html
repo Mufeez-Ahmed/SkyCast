@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SkyCast</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="favicon.png">
+
+  </head>
+  <body>
+    <div class="container">
+      <div class="weather_container">
+        <button class="toggle-btn">Show °F</button>
+
+        <div class="temp">
+          <p>20</p>
+        </div>
+        <div class="time_location">
+          <p>Goa</p>
+          <span>12:30 - Friday 2025-06-20</span>
+        </div>
+        <div class="condition">
+          <p>Cloudy</p>
+        </div>
+      </div>
+      <nav>
+        <form action="">
+          <input
+            type="text"
+            placeholder="Search for a location"
+            class="search_area"
+          />
+          <button type="submit">Search</button>
+        </form>
+        <p class="error-msg"></p>
+      </nav>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
